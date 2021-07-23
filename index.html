@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+	.dn{
+		display: none !important;
+	}
+</style>	
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />    <meta name="author" content="INSPIRO" />    
+	<meta name="description" content="Themeforest Template Polo, html template">
+    <link rel="icon" type="image/png" href="images/fav.jpg">   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Document title -->
+    <title>Grupo 2</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="assets/css/plugins.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="login" >
+    <!-- Body Inner -->
+    <div class="body-inner">
+        <!-- Section -->
+        <section class="fullscreen" style="background-color: #5750A0">
+            <div class="container">
+                <div>
+                    <div class="text-center m-b-30">
+                        <a href="https://fofuuu.com/" class="logo">
+                            <img src="assets/images/bambini-png-2.png" alt="Grupo 2">
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 center p-50 background-white b-r-6">
+                            <h3 style='font-family: "Fredoka One",Sans-serif;'>Grupo 2 - Dashboard Foffu</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label class="sr-only">Email</label>
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group m-b-5">
+                                    <label class="sr-only">Password</label>
+                                    <input type="password" class="form-control" placeholder="Password">
+                                </div>
+                                <br/>
+                                <div class="text-left form-group">
+                                    <button onclick="dashboard()" style="background-color: #ef1151; border-color: #ef1151;" type="button" class="btn">Login</buttom>
+                                </div>
+                            </form>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Section -->
+    </div>
+    <!-- end: Body Inner -->
+    <!-- Scroll top -->
+    </div>
+    <div id="dashboard" class="dn">
+	<iframe width="1140" height="850" src="https://app.powerbi.com/view?r=eyJrIjoiYWE3NmY0N2QtOTgxYi00ODg2LThjY2UtZjJlODE3NTFiMzk0IiwidCI6ImJiOTY4OWI2LTg1NGYtNDc5ZC05NmVlLWE1YmFjZmIwM2U2ZiJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+	</html>
+	</div>
+    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+    <!--Plugins-->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+	<script>
+		function dashboard(){
+			$("#dashboard").removeClass("dn");
+			$("#login").addClass("dn");
+		}
+
+	</script>
+	
+</body>
