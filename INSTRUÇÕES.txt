@@ -6,7 +6,7 @@ Cerfique-se que ele abriu no browser
 
 -- Login --
 
-No campo e-mail utilizar grupo2@foffu.com.br
+No campo e-mail utilizar grupo2@fofuuu.com.br
 
 No campo senha utilizar grupo2
 
@@ -15,7 +15,7 @@ Clique em Login
 
 -- Dash Board --
 
-Página 1 - Dashboard Foffu
+Página 1 - Dashboard Fofuuu
 Página 2 - Dashboard Terapeuta Over View
 Página 3 - Dashboard Terapeuta Detalhes das Atividades
 Página 4 - Dashboard Terapeuta Follow Up Semanal X Mensal
